@@ -6,6 +6,8 @@ const defaultState = {
   totalAmount: 0,
 };
 
+// reducer funciton
+
 const cartReducer = (state, action) => {
   if (action.type === "ADD") {
     const updatedTotalAmount =
