@@ -19,7 +19,9 @@ function App() {
     <CartProvider>
       {cartIsShown && <Cart onCloseCart={closeCartHandler}></Cart>}
       <Header onShowCart={showCartHandler}></Header>
-      <Meals></Meals>
+      <main>
+        <Meals></Meals>
+      </main>
     </CartProvider>
   );
 }
